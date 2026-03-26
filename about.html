@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nAnG1 — Обо мне</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+        <!-- 🌑 СЛОЙ 1: ФОН (z-index: -5 и -4) -->
+    <div class="fire-overlay"></div>
+    <div class="stars"></div>
+        <!-- 🌫️ СЛОЙ 2: ТУМАН (z-index: -2 и -1) -->
+    <div class="screen-mist"></div>
+    <div class="pyramid-fog-left"></div>
+    <div class="pyramid-fog-right"></div>
+    <div class="center-fog"></div>
+    <div class="pyramid-mist"></div>
+    
+    <!-- ===== НАВИГАЦИЯ ===== -->
+    <nav class="top-navigation">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-fire">nAn</span><span class="brand-ice">G1</span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">🏠 Главная</a>
+                <a href="about.html" class="nav-link active">👤 Обо мне</a>
+                <a href="contacts.html" class="nav-link">📬 Контакты</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        
+        <!-- ===== БЛОК: НАВЫКИ ===== -->
+        <section class="skills-section">
+            <h2 class="section-title">💻 Навыки</h2>
+            
+            <div class="skill-item fire-skill">
+                <div class="skill-header">
+                    <span class="skill-name">🐍 Python</span>
+                    <span class="skill-level">3/5</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress fire-progress" style="width: 60%"></div>
+                </div>
+                <p class="skill-details">Базовый синтаксис, работа с файлами, простые скрипты, requests</p>
+            </div>
+
+            <div class="skill-item ice-skill">
+                <div class="skill-header">
+                    <span class="skill-name">⚛️ React</span>
+                    <span class="skill-level">3/5</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress ice-progress" style="width: 60%"></div>
+                </div>
+                <p class="skill-details">Компоненты, хуки (useState, useEffect), базовая работа с состоянием</p>
+            </div>
+
+            <div class="skill-item fire-skill">
+                <div class="skill-header">
+                    <span class="skill-name">📜 JavaScript</span>
+                    <span class="skill-level">3/5</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress fire-progress" style="width: 60%"></div>
+                </div>
+                <p class="skill-details">ES6+, DOM-манипуляции, асинхронность (async/await, fetch)</p>
+            </div>
+
+            <div class="skill-item ice-skill">
+                <div class="skill-header">
+                    <span class="skill-name">🎬 Adobe After Effects</span>
+                    <span class="skill-level">4/5</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress ice-progress" style="width: 80%"></div>
+                </div>
+                <p class="skill-details">Моушн-дизайн, кейфреймы, маски, трекинг, композитинг, экспорт</p>
+            </div>
+
+            <div class="skill-item fire-skill">
+                <div class="skill-header">
+                    <span class="skill-name">🎨 CSS</span>
+                    <span class="skill-level">3/5</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress fire-progress" style="width: 60%"></div>
+                </div>
+                <p class="skill-details">Flexbox, Grid, адаптивность, базовые анимации, переменные</p>
+            </div>
+
+            <div class="skill-item ice-skill">
+                <div class="skill-header">
+                    <span class="skill-name">🌐 HTML</span>
+                    <span class="skill-level">4/5</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress ice-progress" style="width: 80%"></div>
+                </div>
+                <p class="skill-details">Семантическая вёрстка, формы, доступность (a11y), SEO-теги</p>
+            </div>
+        </section>
+
+        <!-- ===== БЛОК: ИНТЕРЕСЫ ===== -->
+        <section class="interests-section">
+            <h2 class="section-title">✨ Интересы</h2>
+            
+            <div class="interests-list">
+                <div class="interest-item fire-card">
+                    <span class="interest-icon">🎮</span>
+                    <span class="interest-text">CS2 Faceit</span>
+                </div>
+                <div class="interest-item ice-card">
+                    <span class="interest-icon">🏃</span>
+                    <span class="interest-text">Спорт</span>
+                </div>
+                <div class="interest-item fire-card">
+                    <span class="interest-icon">💻</span>
+                    <span class="interest-text">Веб-разработка</span>
+                </div>
+                <div class="interest-item ice-card">
+                    <span class="interest-icon">🎨</span>
+                    <span class="interest-text">Дизайн</span>
+                </div>
+                <div class="interest-item fire-card">
+                    <span class="interest-icon">✈️</span>
+                    <span class="interest-text">Путешествия</span>
+                </div>
+                <div class="interest-item ice-card">
+                    <span class="interest-icon">🐾</span>
+                    <span class="interest-text">Домашние Животные</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ФУТЕР ===== -->
+        <footer class="footer">
+            <p>© 2026 nAnG1. Все права защищены.</p>
+            <div class="social-links">
+                <a href="https://github.com/dddx69" target="_blank" class="social-fire"><i class="fab fa-github"></i></a>
+                <a href="https://t.me/dddx69" target="_blank" class="social-ice"><i class="fab fa-telegram"></i></a>
+                <a href="https://vk.com/dddyx69" target="_blank" class="social-fire"><i class="fab fa-vk"></i></a>
+                <a href="mailto:rom018319@gmail.com" class="social-ice"><i class="fas fa-envelope"></i></a>
+                <a href="https://tiktok.com/@babyfrog" target="_blank" class="social-fire"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </footer>
+
+    </div>
+    
+    <div class="fire-overlay"></div>
+    <div class="ice-overlay"></div>
+</body>
+</html>
